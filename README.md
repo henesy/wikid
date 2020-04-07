@@ -1,2 +1,29 @@
-# wikid
-Experiment in building a non-web maintained wiki serving itself over 9p and http read-only
+# Wikid
+
+An experiment in building a non-web maintained wiki serving itself over 9p and http read-only. 
+
+Core concepts:
+
+- Pages are a file/directory hierarchy (tree)
+- Pages are written in Markdown
+- Wikid does not update/edit the tree through the web or 9p
+  - Ideally, the tree should be externally version-controlled in a self-pull'ing capacity through cron, etc. 
+- Unchanged pages are cached
+- Wikid provides a page search walking the cache, then tree
+- Wikid provides a page index generated when the tree is updated
+
+## Dependencies
+
+
+
+## Build
+
+
+
+## Usage
+
+
+
+## Structure
+
+
