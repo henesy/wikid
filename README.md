@@ -26,4 +26,14 @@ Core concepts:
 
 ## Structure
 
+```
+wiki/		# pages of the wiki (markdown)
 
+templates/	# template files for pages (html and js)
+
+frontend/	# elm source
+
+backend/	# go server source
+
+mkfile		# ‘mk templates’ to generate templates and ‘mk all’ to rebuild backend
+```
